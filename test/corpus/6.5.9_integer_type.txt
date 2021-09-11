@@ -1,0 +1,13 @@
+============
+Integer Type
+============
+const ! uint
+!i16
+const i64
+uintptr
+------------
+(source_file
+	(integer_type)
+	(integer_type)
+	(integer_type)
+	(integer_type))

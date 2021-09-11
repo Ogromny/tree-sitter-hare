@@ -1,0 +1,15 @@
+=======
+imports
+=======
+
+use lol;
+use foo = lol;
+use lol::test::{foo, foo,};
+
+-------
+
+(sub_unit
+	(imports
+		(use_statement (identifier (name)))
+		(use_statement (name) (identifier (name)))
+		(use_statement (identifier (name) (name)) (name_list (name) (name)))))

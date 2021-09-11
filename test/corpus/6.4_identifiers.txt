@@ -1,0 +1,19 @@
+===========
+Identifiers
+===========
+test
+lol
+_
+a
+A
+_a_b_Z
+_::_::_
+-----------
+(source_file
+	(identifier (name))
+	(identifier (name))
+	(identifier (name))
+	(identifier (name))
+	(identifier (name))
+	(identifier (name))
+	(identifier (name) (name) (name)))
